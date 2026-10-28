@@ -7,11 +7,11 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
 
-  // Ruta base para GitHub Pages
-  base: '/Iesco-Forms/',
+  // Ruta correcta del repositorio de GitHub
+  base: '/Iesco-Capacitaci-n-Ciberseguridad/',
 
   build: {
-    // Dos paginas: la landing y el modo presentacion
+    // Pagina principal y modo presentacion
     rollupOptions: {
       input: {
         main: resolve(import.meta.dirname, 'index.html'),
